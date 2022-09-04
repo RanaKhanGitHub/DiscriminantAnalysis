@@ -1,6 +1,6 @@
 # Discriminant Analysis
 
-# Mr. John Hughes is looking at developing an LDA model for his cancer.csv dataset and evaluate its effectiveness. If you recall the dataset has the following variables.
+Mr. John Hughes is looking at developing an LDA model for his cancer.csv dataset and evaluate its effectiveness. If you recall the dataset has the following variables.
 
 # Independent Variables
 ID - ID number
