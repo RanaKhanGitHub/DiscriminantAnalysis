@@ -1,8 +1,8 @@
-# Discriminant Analysis
+## Discriminant Analysis
 
-#Mr. John Hughes is looking at developing an LDA model for his cancer.csv dataset and evaluate its effectiveness. If you recall the dataset has the following variables.
+# Mr. John Hughes is looking at developing an LDA model for his cancer.csv dataset and evaluate its effectiveness. If you recall the dataset has the following variables.
 
-#Independent Variables
+# Independent Variables
 ID - ID number
 Clump Thickness - 1-10
 UofCSize - Uniformity of Cell Size 1-10 UofShape - Uniformity of Cell Shape 1-10 Marginal Adhesion - 1-10
@@ -10,9 +10,15 @@ SECSize - Single Epithelial Cell Size 1-10 Bare Nuclei - 1-10
 Bland Chromatin - 1-10
 Normal Nucleoli - 1-10
 Mitoses - 1-10
-Dependent Variable
-Class - Benign (i.e. No Cancer) - 2, Malignant (i.e. Cancer) - 4
-Note: ID will not be used and will need to be dropped prior to building your model.
+
+
+# Dependent Variable
+Class
+Benign (i.e. No Cancer) 2
+Malignant (i.e. Cancer) - 4
+
+Note: ID will not be used and will need to be dropped prior to building your model
+
 Below are the results of the Optimized Logistical Regression model (with SMOTE):
       Optimized Model
       Model Name: LogisticRegression(class_weight='balanced', random_state
@@ -35,15 +41,12 @@ precision    recall  f1-score   support
 0.98       137
 0.98       137
 0.98       137
-The Ask:
-2
- 1.
-Create a PowerPoint (PPT) presentation that includes the following:
-a. Cover Page (Title, Name (1st and last) and Student Number)
-b. Rational Statement (summary of the problem or problems to be addressed by the PPT) – 2%
-c. Identify and explain two (2) key insights from the Pandas Profile Report – 2%
-d. Present and explain three (3) key insights from the Optimized LDA classification report, but first use
-SMOTE to ensure that the dataset is balanced. – 6%
-e. Compare the Optimized LDA to the Optimized Logistical Regression model (from page 1) identifying
-three (3) key insights. – 3%
-f. State and explain two (2) recommendations for Mr. John Hughes for next steps. – 2%
+
+# The Ask:
+1. Rational Statement (summary of the problem or problems to be addressed by the PPT) 
+2. Identify and explain two (2) key insights from the Pandas Profile Report 
+3. Present and explain three (3) key insights from the Optimized LDA classification report, but first use
+4. SMOTE to ensure that the dataset is balanced
+5. Compare the Optimized LDA to the Optimized Logistical Regression model (from page 1) identifying
+three (3) key insights
+6. State and explain two (2) recommendations for Mr. John Hughes for next steps
